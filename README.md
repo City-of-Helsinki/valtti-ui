@@ -28,7 +28,7 @@ yarn install # or npm install
 To start developing, start the Metro bundler by running the following command in the project root:
 
 ```terminal
-yarn start # or npm start
+npx expo start
 ```
 
 ### Building
