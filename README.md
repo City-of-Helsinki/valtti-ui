@@ -1,6 +1,6 @@
 # Valtti
 
-<img src="https://play-lh.googleusercontent.com/PS6HgNEEM6FTCDhWCsNrnTBhtTzjbsziIh9PACvET8vKkDK2Ch1DeBc6GksFwTCDGUPb=w480-h960-rw" width="115" align="left" alt="Valtti Logo" />
+<img src="/assets/icon.png" width="115" align="left" alt="Valtti Logo" />
 
 Valtti is a secure instant messaging application for child protection and family social work. It allows professionals and customers to communicate securely with each other.
 
