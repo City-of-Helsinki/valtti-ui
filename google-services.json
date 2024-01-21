@@ -1,0 +1,12 @@
+{
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246643179807:android:a555097e4249d57165702a",
+        "android_client_info": {
+          "package_name": "fi.onervahoiva.lasu"
+        }
+      }
+    }
+  ]
+}

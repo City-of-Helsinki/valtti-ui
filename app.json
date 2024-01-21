@@ -1,0 +1,73 @@
+{
+  "expo": {
+    "name": "Valtti",
+    "owner": "onerva",
+    "slug": "lasu-app",
+    "version": "1.16.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "fi.onervahoiva.lasu",
+      "buildNumber": "119",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Enable Camera Access so that you can take photos and send them in chat.",
+        "NSPhotoLibraryUsageDescription": "Enable Camera Roll Access so that you can select Other Photos from Camera Roll"
+      }
+    },
+    "android": {
+      "permissions": ["CAMERA", "NOTIFICATIONS"],
+      "package": "fi.onervahoiva.lasu",
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "versionCode": 120
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "prodBuild": true,
+      "devApi": "http://example-onerva-api/api/v6",
+      "prodApi": "https://example-onerva-api/api/v6",
+      "eas": {
+        "projectId": "sample-project-id"
+      }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Salli gallerian käyttö ladataksesi kuvia",
+          "cameraPermission": "Salli kuvien käyttö ladataksesi kuvia"
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Salli gallerian käyttö ladataksesi kuvia",
+          "savePhotosPermission": "Salli kuvien käyttö ladataksesi kuvia",
+          "isAccessMediaLocationEnabled": true
+        }
+      ],
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Salli mikrofonin käyttö lähettääksesi ääniviestejä"
+        }
+      ]
+    ]
+  }
+}
